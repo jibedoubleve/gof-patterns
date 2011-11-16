@@ -1,4 +1,4 @@
-﻿namespace Design.Patterns.Behavioural.ChainOfResponsability
+﻿namespace Design.Patterns.Behavioural.ChainOfResponsibility
 {
     public interface ISoldier
     {
