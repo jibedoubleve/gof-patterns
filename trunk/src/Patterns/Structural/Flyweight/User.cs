@@ -1,15 +1,21 @@
-﻿using System;
-
-namespace Design.Patterns.Structural.Flyweight
+﻿namespace Design.Patterns.Structural.Flyweight
 {
+    using System;
+
     public class NonCachedUser : IUser
     {
-        #region IUser Members
+        #region Constructors
+
         public NonCachedUser(string id)
         {
             this.Id = id;
             this.IsFromCache = false;
         }
+
+        #endregion Constructors
+
+        #region Properties
+
         public DateTime Birthdate
         {
             get;
@@ -40,6 +46,6 @@ namespace Design.Patterns.Structural.Flyweight
             set;
         }
 
-        #endregion
+        #endregion Properties
     }
 }

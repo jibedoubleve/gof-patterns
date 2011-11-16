@@ -1,11 +1,14 @@
-﻿using Design.Patterns.Structural.Proxy;
-using NUnit.Framework;
-
-namespace Design.Test.Structural
+﻿namespace Design.Test.Structural
 {
+    using Design.Patterns.Structural.Proxy;
+
+    using NUnit.Framework;
+
     [TestFixture]
     public class ProxyTest
     {
+        #region Methods
+
         [Test]
         public void CanUserproxy()
         {
@@ -14,5 +17,7 @@ namespace Design.Test.Structural
 
             Assert.AreEqual(proxy.GetHello(), feature.GetHello()); ;
         }
+
+        #endregion Methods
     }
 }
