@@ -81,6 +81,8 @@
     <Compile Include="Patterns\Structural\Flyweight\CachingFactory.cs" />
     <Compile Include="Patterns\Structural\Flyweight\IUser.cs" />
     <Compile Include="Patterns\Structural\Flyweight\User.cs" />
+    <Compile Include="Patterns\Structural\Proxy\Feature.cs" />
+    <Compile Include="Patterns\Structural\Proxy\Proxy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\Creational\AbstractFactoryTest.cs" />
     <Compile Include="Test\Creational\BuilderTest.cs" />
@@ -93,6 +95,7 @@
     <Compile Include="Test\Structural\DecoratorTest.cs" />
     <Compile Include="Test\Structural\FacadeTest.cs" />
     <Compile Include="Test\Structural\FlyweightTest.cs" />
+    <Compile Include="Test\Structural\ProxyTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Patterns\Behavioural\" />
