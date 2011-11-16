@@ -1,16 +1,16 @@
 ﻿namespace Design.Test.Behavioural
 {
-    using Design.Patterns.Behavioural.ChainOfResponsability;
+    using Design.Patterns.Behavioural.ChainOfResponsibility;
 
     using NUnit.Framework;
 
     [TestFixture]
-    public class ChainOfResponsabilityTest
+    public class ChainOfResponsibilityTest
     {
         #region Methods
 
         [Test]
-        public void CanTestChainOfResponsability()
+        public void CanTestChainOfResponsibility()
         {
             var general = new General();
             var colonel = new Colonel(general);
