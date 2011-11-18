@@ -50,9 +50,10 @@
     <Compile Include="Patterns\Behavioural\ChainOfResponsibility\Level.cs" />
     <Compile Include="Patterns\Behavioural\ChainOfResponsibility\Order.cs" />
     <Compile Include="Patterns\Behavioural\ChainOfResponsibility\Soldier.cs" />
-    <Compile Include="Patterns\Behavioural\Command\ConcreteCommand.cs" />
+    <Compile Include="Patterns\Behavioural\Command\Command.cs" />
     <Compile Include="Patterns\Behavioural\Command\ICommand.cs" />
     <Compile Include="Patterns\Behavioural\Command\Invoker.cs" />
+    <Compile Include="Patterns\Behavioural\Command\Receiver.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\Money.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\LowerCaseFactory.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\IFactory.cs" />

@@ -1,16 +1,14 @@
 ﻿namespace Design.Patterns.Behavioural.Command
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
 
-    public class ConcreteCommand : ICommand
+    public class Command : ICommand
     {
         #region Constructors
 
-        public ConcreteCommand()
+        private Receiver receiver;
+        public Command(Receiver receiver)
         {
+            this.receiver = receiver;
             this.Result = 0;
         }
 
@@ -30,7 +28,7 @@
 
         public void Run()
         {
-            this.Result = 42;
+            this.Result = this.receiver.ExecuteAction();
         }
 
         #endregion Methods
