@@ -1,19 +1,24 @@
-﻿
-namespace Design.Patterns.Behavioural.Visitor
+﻿namespace Design.Patterns.Behavioural.Visitor
 {
     public class VacationVisitor : IVisitor
     {
-        #region IVisitor Members
+        #region Properties
 
-        public void Visit(IEmployee visitee)
-        {
-            this.Total += visitee.Vacations;
-        }
         public int Total
         {
             get;
             private set;
         }
-        #endregion
+
+        #endregion Properties
+
+        #region Methods
+
+        public void Visit(IEmployee visitee)
+        {
+            this.Total += visitee.Vacations;
+        }
+
+        #endregion Methods
     }
 }
