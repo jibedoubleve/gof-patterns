@@ -25,6 +25,11 @@
             get;
             private set;
         }
+
+        #endregion Properties
+
+        #region Methods
+
         public void Say(string msg)
         {
             this.Left.Message = string.Format("{0} says {1} to {2}"
@@ -32,6 +37,7 @@
                 , msg
                 , this.Right.Name);
         }
-        #endregion Properties
+
+        #endregion Methods
     }
 }
