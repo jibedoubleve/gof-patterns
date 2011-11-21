@@ -1,9 +1,20 @@
-﻿
-namespace Design.Patterns.Behavioural.Observer
+﻿namespace Design.Patterns.Behavioural.Observer
 {
     public interface IObserver
     {
-        string Message { get; }
+        #region Properties
+
+        string Message
+        {
+            get;
+        }
+
+        #endregion Properties
+
+        #region Methods
+
         void Execute(string message);
+
+        #endregion Methods
     }
 }

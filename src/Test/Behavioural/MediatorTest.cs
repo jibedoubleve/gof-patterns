@@ -18,24 +18,14 @@
         public void CanUseMediator()
         {
             var helloWorld = "Hello world";
-            var user1 = new User("1");
-            var user2 = new User("2");
-            var user3 = new User("3");
-            var chatRoom = new ChatRoom();
+            var left = new User("Robert");
+            var right = new User("Luc");
 
-            chatRoom.Register(user1);
-            chatRoom.Register(user2);
-            chatRoom.Register(user3);
+            var com = new Communication(left, right);
+            com.Say(helloWorld);
 
-            Assert.AreEqual(string.Empty, user1.Message);
-            Assert.AreEqual(string.Empty, user2.Message);
-            Assert.AreEqual(string.Empty, user3.Message);
-
-            chatRoom.NotifyAll(helloWorld);
-
-            Assert.AreEqual(helloWorld, user1.Message);
-            Assert.AreEqual(helloWorld, user2.Message);
-            Assert.AreEqual(helloWorld, user3.Message);
+            Assert.AreEqual(string.Format("{0} says {1} to {2}", com.Left.Name, helloWorld, right.Name)
+                , left.Message);
         }
 
         #endregion Methods

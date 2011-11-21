@@ -1,10 +1,14 @@
-﻿using NUnit.Framework;
-using Design.Patterns.Behavioural.Observer;
-namespace Design.Test.Behavioural
+﻿namespace Design.Test.Behavioural
 {
+    using Design.Patterns.Behavioural.Observer;
+
+    using NUnit.Framework;
+
     [TestFixture]
     public class ObserverTest
     {
+        #region Methods
+
         [Test]
         public void CanUserObserver()
         {
@@ -22,5 +26,7 @@ namespace Design.Test.Behavioural
             Assert.AreEqual(helloWorld, observer1.Message);
             Assert.AreEqual(helloWorld, observer2.Message);
         }
+
+        #endregion Methods
     }
 }

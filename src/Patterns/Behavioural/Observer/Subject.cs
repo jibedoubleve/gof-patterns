@@ -1,10 +1,17 @@
-﻿
-using System.Collections.Generic;
-namespace Design.Patterns.Behavioural.Observer
+﻿namespace Design.Patterns.Behavioural.Observer
 {
+    using System.Collections.Generic;
+
     public class Subject
     {
+        #region Fields
+
         public List<IObserver> observers = new List<IObserver>();
+
+        #endregion Fields
+
+        #region Methods
+
         public void Attach(IObserver observer)
         {
             this.observers.Add(observer);
@@ -17,5 +24,7 @@ namespace Design.Patterns.Behavioural.Observer
                 observer.Execute(message);
             }
         }
+
+        #endregion Methods
     }
 }
