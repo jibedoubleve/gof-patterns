@@ -17,11 +17,6 @@
             get { return this.list.Count; }
         }
 
-        public IIterator<int> CreateIterator()
-        {
-            return new IntIterator(this);
-        }
-
         #endregion Properties
 
         #region Indexers
@@ -38,6 +33,11 @@
         public void Add(int value)
         {
             this.list.Add(value);
+        }
+
+        public IIterator<int> CreateIterator()
+        {
+            return new IntIterator(this);
         }
 
         #endregion Methods

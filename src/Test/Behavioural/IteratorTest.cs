@@ -7,8 +7,25 @@
     [TestFixture]
     public class IteratorTest
     {
-        #region Methods
+        #region Fields
+
         private IntAggregate collection;
+
+        #endregion Fields
+
+        #region Methods
+
+        [Test]
+        public void CanResetIterator()
+        {
+            var iterator = collection.CreateIterator();
+
+            while (iterator.Next()) ; //Loop for nothing
+            iterator.Reset();
+
+            iterator.Next();
+            Assert.AreEqual(1, iterator.Current);
+        }
 
         [Test]
         public void CanUserIterator()
@@ -20,6 +37,7 @@
                 Assert.AreEqual(++i, iterator.Current);
             }
         }
+
         [SetUp]
         public void Setup()
         {
@@ -33,18 +51,6 @@
             this.collection.Add(++i);
             this.collection.Add(++i);
             collection.Add(++i);
-        }
-
-        [Test]
-        public void CanResetIterator()
-        {
-            var iterator = collection.CreateIterator();
-
-            while (iterator.Next()) ; //Loop for nothing
-            iterator.Reset();
-
-            iterator.Next();
-            Assert.AreEqual(1, iterator.Current);
         }
 
         #endregion Methods
