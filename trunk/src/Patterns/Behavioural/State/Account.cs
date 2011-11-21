@@ -15,7 +15,8 @@
 
         public int Amount
         {
-            get; private set;
+            get;
+            private set;
         }
 
         #endregion Properties
