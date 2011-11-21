@@ -75,6 +75,10 @@
     <Compile Include="Patterns\Behavioural\State\Account.cs" />
     <Compile Include="Patterns\Behavioural\State\Person.cs" />
     <Compile Include="Patterns\Behavioural\State\Richness.cs" />
+    <Compile Include="Patterns\Behavioural\Strategy\English.cs" />
+    <Compile Include="Patterns\Behavioural\Strategy\French.cs" />
+    <Compile Include="Patterns\Behavioural\Strategy\ILanguage.cs" />
+    <Compile Include="Patterns\Behavioural\Strategy\Speaker.cs" />
     <Compile Include="Patterns\Behavioural\TemplateMethod\ChildClass.cs" />
     <Compile Include="Patterns\Behavioural\TemplateMethod\ParentClass.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\Money.cs" />
@@ -126,6 +130,7 @@
     <Compile Include="Test\Behavioural\MementoTest.cs" />
     <Compile Include="Test\Behavioural\ObserverTest.cs" />
     <Compile Include="Test\Behavioural\StateTest.cs" />
+    <Compile Include="Test\Behavioural\StrategyTest.cs" />
     <Compile Include="Test\Behavioural\TemplateMethodTest.cs" />
     <Compile Include="Test\Creational\AbstractFactoryTest.cs" />
     <Compile Include="Test\Creational\BuilderTest.cs" />
@@ -139,9 +144,6 @@
     <Compile Include="Test\Structural\FacadeTest.cs" />
     <Compile Include="Test\Structural\FlyweightTest.cs" />
     <Compile Include="Test\Structural\ProxyTest.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Patterns\Behavioural\Strategy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
