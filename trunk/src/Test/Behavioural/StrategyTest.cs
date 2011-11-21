@@ -1,7 +1,8 @@
 ﻿namespace Design.Test.Behavioural
 {
-    using NUnit.Framework;
     using Design.Patterns.Behavioural.Strategy;
+
+    using NUnit.Framework;
 
     [TestFixture]
     public class StrategyTest

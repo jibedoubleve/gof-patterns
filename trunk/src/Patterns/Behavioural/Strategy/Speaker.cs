@@ -1,26 +1,34 @@
-﻿
-namespace Design.Patterns.Behavioural.Strategy
+﻿namespace Design.Patterns.Behavioural.Strategy
 {
     public class Speaker : ILanguage
     {
+        #region Fields
+
         private ILanguage language;
+
+        #endregion Fields
+
+        #region Constructors
+
         public Speaker(ILanguage language)
         {
             this.language = language;
         }
 
-        #region ILanguage Members
+        #endregion Constructors
 
-        public string SayHello()
-        {
-            return this.language.SayHello();
-        }
+        #region Methods
 
         public string SayBye()
         {
             return this.language.SayBye();
         }
 
-        #endregion
+        public string SayHello()
+        {
+            return this.language.SayHello();
+        }
+
+        #endregion Methods
     }
 }

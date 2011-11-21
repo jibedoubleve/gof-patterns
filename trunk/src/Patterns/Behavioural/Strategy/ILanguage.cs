@@ -1,9 +1,13 @@
-﻿
-namespace Design.Patterns.Behavioural.Strategy
+﻿namespace Design.Patterns.Behavioural.Strategy
 {
     public interface ILanguage
     {
-        string SayHello();
+        #region Methods
+
         string SayBye();
+
+        string SayHello();
+
+        #endregion Methods
     }
 }

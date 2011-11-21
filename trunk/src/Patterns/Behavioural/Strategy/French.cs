@@ -1,20 +1,19 @@
-﻿
-namespace Design.Patterns.Behavioural.Strategy
+﻿namespace Design.Patterns.Behavioural.Strategy
 {
     public class French : ILanguage
     {
-        #region ILanguage Members
-
-        public string SayHello()
-        {
-            return "Bonjour";
-        }
+        #region Methods
 
         public string SayBye()
         {
             return "Au revoir";
         }
 
-        #endregion
+        public string SayHello()
+        {
+            return "Bonjour";
+        }
+
+        #endregion Methods
     }
 }

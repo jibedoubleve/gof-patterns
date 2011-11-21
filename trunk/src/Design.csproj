@@ -81,6 +81,14 @@
     <Compile Include="Patterns\Behavioural\Strategy\Speaker.cs" />
     <Compile Include="Patterns\Behavioural\TemplateMethod\ChildClass.cs" />
     <Compile Include="Patterns\Behavioural\TemplateMethod\ParentClass.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\Clerk.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\Employees.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\IEmployee.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\IVisitor.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\Manager.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\President.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\SalaryVisitor.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\VacationVisitor.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\Money.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\LowerCaseFactory.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\IFactory.cs" />
@@ -132,6 +140,7 @@
     <Compile Include="Test\Behavioural\StateTest.cs" />
     <Compile Include="Test\Behavioural\StrategyTest.cs" />
     <Compile Include="Test\Behavioural\TemplateMethodTest.cs" />
+    <Compile Include="Test\Behavioural\VisitorTest.cs" />
     <Compile Include="Test\Creational\AbstractFactoryTest.cs" />
     <Compile Include="Test\Creational\BuilderTest.cs" />
     <Compile Include="Test\Creational\FactoryMethodTest.cs" />
