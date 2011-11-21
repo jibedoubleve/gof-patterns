@@ -21,6 +21,8 @@
 
         #endregion Properties
 
+        #region Methods
+
         public Memento SaveState()
         {
             return new Memento() { State = this.State };
@@ -30,5 +32,7 @@
         {
             this.State = memento.State;
         }
+
+        #endregion Methods
     }
 }
