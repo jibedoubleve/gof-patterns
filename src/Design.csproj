@@ -72,6 +72,9 @@
     <Compile Include="Patterns\Behavioural\Observer\ISubject.cs" />
     <Compile Include="Patterns\Behavioural\Observer\Observer.cs" />
     <Compile Include="Patterns\Behavioural\Observer\Subject.cs" />
+    <Compile Include="Patterns\Behavioural\State\Account.cs" />
+    <Compile Include="Patterns\Behavioural\State\Person.cs" />
+    <Compile Include="Patterns\Behavioural\State\Richness.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\Money.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\LowerCaseFactory.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\IFactory.cs" />
@@ -120,6 +123,7 @@
     <Compile Include="Test\Behavioural\MediatorTest.cs" />
     <Compile Include="Test\Behavioural\MementoTest.cs" />
     <Compile Include="Test\Behavioural\ObserverTest.cs" />
+    <Compile Include="Test\Behavioural\StateTest.cs" />
     <Compile Include="Test\Creational\AbstractFactoryTest.cs" />
     <Compile Include="Test\Creational\BuilderTest.cs" />
     <Compile Include="Test\Creational\FactoryMethodTest.cs" />
