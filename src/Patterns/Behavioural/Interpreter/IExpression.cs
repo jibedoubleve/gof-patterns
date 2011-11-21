@@ -5,6 +5,7 @@
         #region Methods
 
         int Interpret();
+
         #endregion Methods
     }
 }

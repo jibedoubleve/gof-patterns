@@ -2,13 +2,36 @@
 {
     public class Minus : IExpression
     {
-        public IExpression Left { get; private set; }
-        public IExpression Right { get; private set; }
+        #region Fields
+
+        private int value;
+
+        #endregion Fields
+
+        #region Constructors
+
         public Minus(IExpression left, IExpression right)
         {
             this.Left = left;
             this.Right = right;
         }
+
+        #endregion Constructors
+
+        #region Properties
+
+        public IExpression Left
+        {
+            get; private set;
+        }
+
+        public IExpression Right
+        {
+            get; private set;
+        }
+
+        #endregion Properties
+
         #region Methods
 
         public int Interpret()
@@ -17,12 +40,5 @@
         }
 
         #endregion Methods
-
-        #region IExpression Members
-
-
-        private int value;
-
-        #endregion
     }
 }
