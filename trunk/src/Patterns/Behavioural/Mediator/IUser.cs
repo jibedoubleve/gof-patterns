@@ -1,13 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Design.Patterns.Behavioural.Mediator
+﻿namespace Design.Patterns.Behavioural.Mediator
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
     public interface IUser
     {
-        string Name { get; }
-        string Message { get; set; }
+        #region Properties
+
+        string Message
+        {
+            get; set;
+        }
+
+        string Name
+        {
+            get;
+        }
+
+        #endregion Properties
     }
 }
