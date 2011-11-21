@@ -9,13 +9,17 @@
             get;
         }
 
-        IIterator<T> CreateIterator();
-
         T this[int index]
         {
             get;
         }
 
         #endregion Properties
+
+        #region Methods
+
+        IIterator<T> CreateIterator();
+
+        #endregion Methods
     }
 }

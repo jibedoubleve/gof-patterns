@@ -62,6 +62,10 @@
     <Compile Include="Patterns\Behavioural\Iterator\IIterator.cs" />
     <Compile Include="Patterns\Behavioural\Iterator\IntAggregate.cs" />
     <Compile Include="Patterns\Behavioural\Iterator\IntIterator.cs" />
+    <Compile Include="Patterns\Behavioural\Mediator\ChatRoom.cs" />
+    <Compile Include="Patterns\Behavioural\Mediator\IChatRoom.cs" />
+    <Compile Include="Patterns\Behavioural\Mediator\IUser.cs" />
+    <Compile Include="Patterns\Behavioural\Mediator\User.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\Money.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\LowerCaseFactory.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\IFactory.cs" />
@@ -107,6 +111,7 @@
     <Compile Include="Test\Behavioural\CommandTest.cs" />
     <Compile Include="Test\Behavioural\InterpreterTest.cs" />
     <Compile Include="Test\Behavioural\IteratorTest.cs" />
+    <Compile Include="Test\Behavioural\MediatorTest.cs" />
     <Compile Include="Test\Creational\AbstractFactoryTest.cs" />
     <Compile Include="Test\Creational\BuilderTest.cs" />
     <Compile Include="Test\Creational\FactoryMethodTest.cs" />
