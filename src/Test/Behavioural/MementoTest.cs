@@ -1,10 +1,5 @@
 ﻿namespace Design.Test.Behavioural
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-
     using Design.Patterns.Behavioural.Memento;
 
     using NUnit.Framework;

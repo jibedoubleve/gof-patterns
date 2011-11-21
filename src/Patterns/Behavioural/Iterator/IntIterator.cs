@@ -1,10 +1,5 @@
 ﻿namespace Design.Patterns.Behavioural.Iterator
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-
     public class IntIterator : IIterator<int>
     {
         #region Fields
