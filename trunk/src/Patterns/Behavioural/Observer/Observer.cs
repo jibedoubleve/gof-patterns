@@ -1,18 +1,8 @@
-﻿
-namespace Design.Patterns.Behavioural.Observer
+﻿namespace Design.Patterns.Behavioural.Observer
 {
     public class Observer : IObserver
     {
-        #region IObserver Members
-
-        public void Execute(string message)
-        {
-            this.Message = message;
-        }
-
-        #endregion
-
-        #region IObserver Members
+        #region Properties
 
         public string Message
         {
@@ -20,6 +10,15 @@ namespace Design.Patterns.Behavioural.Observer
             private set;
         }
 
-        #endregion
+        #endregion Properties
+
+        #region Methods
+
+        public void Execute(string message)
+        {
+            this.Message = message;
+        }
+
+        #endregion Methods
     }
 }
