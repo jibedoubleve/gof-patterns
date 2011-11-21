@@ -2,6 +2,12 @@
 {
     public class Variable : IExpression
     {
+        #region Fields
+
+        private int value;
+
+        #endregion Fields
+
         #region Constructors
 
         public Variable(int value)
@@ -13,15 +19,11 @@
 
         #region Methods
 
-        public int Interpret() { return this.value; }
+        public int Interpret()
+        {
+            return this.value;
+        }
 
         #endregion Methods
-
-        #region IExpression Members
-
-
-        private int value;
-
-        #endregion
     }
 }
