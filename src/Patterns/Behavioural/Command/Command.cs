@@ -1,11 +1,15 @@
 ﻿namespace Design.Patterns.Behavioural.Command
 {
-
     public class Command : ICommand
     {
-        #region Constructors
+        #region Fields
 
         private Receiver receiver;
+
+        #endregion Fields
+
+        #region Constructors
+
         public Command(Receiver receiver)
         {
             this.receiver = receiver;
