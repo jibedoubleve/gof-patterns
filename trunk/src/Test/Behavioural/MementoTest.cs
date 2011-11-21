@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NUnit.Framework;
-using Design.Patterns.Behavioural.Memento;
-
-namespace Design.Test.Behavioural
+﻿namespace Design.Test.Behavioural
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
+    using Design.Patterns.Behavioural.Memento;
+
+    using NUnit.Framework;
+
     [TestFixture]
     public class MementoTest
     {
+        #region Methods
+
         [Test]
         public void CanSaveState()
         {
@@ -44,5 +48,7 @@ namespace Design.Test.Behavioural
                 Assert.AreEqual(i, o.State);
             }
         }
+
+        #endregion Methods
     }
 }
