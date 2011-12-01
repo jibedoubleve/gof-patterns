@@ -47,7 +47,7 @@
     <Compile Include="Patterns\Behavioural\ChainOfResponsibility\Colonel.cs" />
     <Compile Include="Patterns\Behavioural\ChainOfResponsibility\General.cs" />
     <Compile Include="Patterns\Behavioural\ChainOfResponsibility\ISoldier.cs" />
-    <Compile Include="Patterns\Behavioural\ChainOfResponsibility\Level.cs" />
+    <Compile Include="Patterns\Behavioural\ChainOfResponsibility\Destination.cs" />
     <Compile Include="Patterns\Behavioural\ChainOfResponsibility\Order.cs" />
     <Compile Include="Patterns\Behavioural\ChainOfResponsibility\Soldier.cs" />
     <Compile Include="Patterns\Behavioural\Command\Command.cs" />
@@ -153,6 +153,11 @@
     <Compile Include="Test\Structural\FacadeTest.cs" />
     <Compile Include="Test\Structural\FlyweightTest.cs" />
     <Compile Include="Test\Structural\ProxyTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Patterns\Behavioural\Command\_Command.cd" />
+    <None Include="Patterns\Behavioural\ChainOfResponsibility\_ChainOfResponsibility.cd" />
+    <None Include="Pattern.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

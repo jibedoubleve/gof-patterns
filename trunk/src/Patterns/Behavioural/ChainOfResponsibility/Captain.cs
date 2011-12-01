@@ -5,7 +5,7 @@
         #region Constructors
 
         public Captain(ISoldier superior)
-            : base(Level.Captain)
+            : base(Destination.Captain)
         {
             this.Superior = superior;
         }

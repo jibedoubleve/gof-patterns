@@ -6,7 +6,7 @@
     {
         #region Constructors
 
-        public Order(Level level, string message)
+        public Order(Destination level, string message)
         {
             this.Level = level;
             this.Message = message;
@@ -22,9 +22,10 @@
             set;
         }
 
-        public Level Level
+        public Destination Level
         {
-            get; private set;
+            get;
+            private set;
         }
 
         public string Message
