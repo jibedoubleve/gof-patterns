@@ -16,9 +16,9 @@
             var colonel = new Colonel(general);
             var captain = new Captain(colonel);
 
-            var orderForGeneral = new Order(Level.General, "Go here");
-            var orderForColonel = new Order(Level.Colonel, "Go here");
-            var orderForCaptain = new Order(Level.Captain, "Go here");
+            var orderForGeneral = new Order(Destination.General, "Go here");
+            var orderForColonel = new Order(Destination.Colonel, "Go here");
+            var orderForCaptain = new Order(Destination.Captain, "Go here");
 
             captain.Execute(orderForGeneral);
             captain.Execute(orderForColonel);

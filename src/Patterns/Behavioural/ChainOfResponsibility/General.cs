@@ -5,7 +5,7 @@
         #region Constructors
 
         public General()
-            : base(Level.General)
+            : base(Destination.General)
         {
             this.Superior = null;
         }

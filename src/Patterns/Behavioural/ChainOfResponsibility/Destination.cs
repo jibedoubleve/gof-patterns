@@ -2,7 +2,7 @@
 {
     #region Enumerations
 
-    public enum Level
+    public enum Destination
     {
         General,
         Colonel,

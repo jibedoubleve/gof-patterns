@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Design.Patterns.Behavioural.ChainOfResponsibility.Soldier">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAQAAAAAAA=</HashCode>
+      <FileName>Patterns\Behavioural\ChainOfResponsibility\Soldier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Design.Patterns.Behavioural.ChainOfResponsibility.Order">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAKAAAAAA=</HashCode>
+      <FileName>Patterns\Behavioural\ChainOfResponsibility\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design.Patterns.Behavioural.ChainOfResponsibility.General">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patterns\Behavioural\ChainOfResponsibility\General.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design.Patterns.Behavioural.ChainOfResponsibility.Colonel">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patterns\Behavioural\ChainOfResponsibility\Colonel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design.Patterns.Behavioural.ChainOfResponsibility.Captain">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patterns\Behavioural\ChainOfResponsibility\Captain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Design.Patterns.Behavioural.ChainOfResponsibility.ISoldier" Collapsed="true">
+    <Position X="1.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Patterns\Behavioural\ChainOfResponsibility\ISoldier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Design.Patterns.Behavioural.ChainOfResponsibility.Destination">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Patterns\Behavioural\ChainOfResponsibility\Destination.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

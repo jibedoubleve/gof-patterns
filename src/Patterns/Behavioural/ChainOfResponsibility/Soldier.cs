@@ -4,7 +4,7 @@
     {
         #region Constructors
 
-        public Soldier(Level level)
+        public Soldier(Destination level)
         {
             this.Level = level;
         }
@@ -19,7 +19,7 @@
             get;
         }
 
-        protected Level Level
+        protected Destination Level
         {
             get;
             private set;
