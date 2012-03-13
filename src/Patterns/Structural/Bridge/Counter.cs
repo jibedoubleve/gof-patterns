@@ -21,7 +21,7 @@
 
         #region Methods
 
-        public int[] Start()
+        public int[] Count()
         {
             List<int> result = new List<int>();
             this.table.Reset();

@@ -15,21 +15,22 @@
             var robert = "Robert";
             var dupont = "Dupont";
 
-            IUser user = CachingFactory.GetUser("login");
+            IUser user = CachingFactory.GetUser("id");
 
             user.FirstName = robert;
             user.LastName = dupont;
 
             Assert.IsFalse(user.IsFromCache);
-            Assert.AreEqual("login", user.Id);
+            Assert.AreEqual("id", user.Id);
 
-            IUser other = CachingFactory.GetUser("login");
+            IUser other = CachingFactory.GetUser("id");
 
+            // CachingFactory returns the reference of the cached object. This is why these assertions will succeed
             Assert.AreEqual(other.FirstName, robert);
             Assert.AreEqual(other.LastName, dupont);
             Assert.IsTrue(other.IsFromCache);
 
-            //I can user a non cached IUser
+            //I can use a non cached IUser
             var nonCahcedUser = new NonCachedUser("someId");
         }
 

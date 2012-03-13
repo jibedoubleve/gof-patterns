@@ -15,7 +15,7 @@
             var feature = new Feature();
             var proxy = new Proxy(feature);
 
-            Assert.AreEqual(proxy.GetHello(), feature.GetHello()); ;
+            Assert.AreEqual(proxy.GetHello(), Proxy.PROXY_PREFIX + feature.GetHello());
         }
 
         #endregion Methods
