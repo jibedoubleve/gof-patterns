@@ -21,7 +21,7 @@
         {
             var counter = new Counter(new TableBy2());
 
-            var result = counter.Start();
+            var result = counter.Count();
 
             for (int i = 0; i < result.Length; i++)
             {
@@ -34,7 +34,7 @@
         {
             var counter = new Counter(new TableBy9());
 
-            var result = counter.Start();
+            var result = counter.Count();
 
             for (int i = 0; i < result.Length; i++)
             {

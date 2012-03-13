@@ -21,9 +21,10 @@
 
         public string GetHello()
         {
-            return feature.GetHello();
-        }
 
+            return PROXY_PREFIX + feature.GetHello();
+        }
+        public const string PROXY_PREFIX = "Proxification: ";
         #endregion Methods
     }
 }
