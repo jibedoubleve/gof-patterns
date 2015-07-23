@@ -1,0 +1,1 @@
+This is the list of all the design patterns of the Gang of Four developed in C#
