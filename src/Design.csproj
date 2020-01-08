@@ -113,6 +113,14 @@
     <Compile Include="Patterns\Creational\Prototype\House.cs" />
     <Compile Include="Patterns\Creational\Prototype\IPrototype.cs" />
     <Compile Include="Patterns\Creational\Singletton\Unique.cs" />
+    <Compile Include="Patterns\Others\Specification\Algo\AndSpecification.cs" />
+    <Compile Include="Patterns\Others\Specification\Algo\CompositeSpecification.cs" />
+    <Compile Include="Patterns\Others\Specification\Algo\ISpecification.cs" />
+    <Compile Include="Patterns\Others\Specification\Algo\Notspecification.cs" />
+    <Compile Include="Patterns\Others\Specification\Algo\OrSpecification.cs" />
+    <Compile Include="Patterns\Others\Specification\Rules\GreaterThan.cs" />
+    <Compile Include="Patterns\Others\Specification\Rules\IsNegative.cs" />
+    <Compile Include="Patterns\Others\Specification\Rules\LowerThan.cs" />
     <Compile Include="Patterns\Structural\Adapter\Average.cs" />
     <Compile Include="Patterns\Structural\Adapter\Division.cs" />
     <Compile Include="Patterns\Structural\Adapter\English.cs" />
@@ -157,6 +165,7 @@
     <Compile Include="Test\Creational\FactoryMethodTest.cs" />
     <Compile Include="Test\Creational\Prototype.cs" />
     <Compile Include="Test\Creational\SinglettonTest.cs" />
+    <Compile Include="Test\Others\SpecificationTest.cs" />
     <Compile Include="Test\Structural\AdapterTest.cs" />
     <Compile Include="Test\Structural\BridgeTest.cs" />
     <Compile Include="Test\Structural\CompositeTest.cs" />
@@ -171,6 +180,7 @@
     <None Include="Patterns\Behavioural\ChainOfResponsibility\_ChainOfResponsibility.cd" />
     <None Include="Pattern.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
