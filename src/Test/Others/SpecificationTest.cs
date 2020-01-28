@@ -16,7 +16,7 @@ namespace Design.Test.Others
         /// Be aware this pattern has strong disadvantages. Think before using it blindly
         /// </remarks>
         [Test]
-        public void CanUseSpecificatio()
+        public void CanUseSpecification()
         {
             //rules
             var gt = new GreaterThan(5);

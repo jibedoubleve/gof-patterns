@@ -113,6 +113,7 @@
     <Compile Include="Patterns\Creational\Prototype\House.cs" />
     <Compile Include="Patterns\Creational\Prototype\IPrototype.cs" />
     <Compile Include="Patterns\Creational\Singletton\Unique.cs" />
+    <Compile Include="Patterns\Others\ReversePolishNotation.cs" />
     <Compile Include="Patterns\Others\Specification\Algo\AndSpecification.cs" />
     <Compile Include="Patterns\Others\Specification\Algo\CompositeSpecification.cs" />
     <Compile Include="Patterns\Others\Specification\Algo\ISpecification.cs" />
@@ -165,6 +166,7 @@
     <Compile Include="Test\Creational\FactoryMethodTest.cs" />
     <Compile Include="Test\Creational\Prototype.cs" />
     <Compile Include="Test\Creational\SinglettonTest.cs" />
+    <Compile Include="Test\Others\ReversePolishNotationTest.cs" />
     <Compile Include="Test\Others\SpecificationTest.cs" />
     <Compile Include="Test\Structural\AdapterTest.cs" />
     <Compile Include="Test\Structural\BridgeTest.cs" />
