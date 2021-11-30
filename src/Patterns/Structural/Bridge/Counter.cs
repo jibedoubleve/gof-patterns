@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    public class Counter
+    public class Counter : ICounter
     {
         #region Fields
 

@@ -19,7 +19,7 @@
         [Test]
         public void CanUseTableBy2()
         {
-            var counter = new Counter(new TableBy2());
+            ICounter counter = new Counter(new TableBy2());
 
             var result = counter.Count();
 
@@ -32,7 +32,7 @@
         [Test]
         public void CanUseTableBy9()
         {
-            var counter = new Counter(new TableBy9());
+            ICounter counter = new Counter(new TableBy9());
 
             var result = counter.Count();
 

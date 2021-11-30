@@ -129,6 +129,7 @@
     <Compile Include="Patterns\Structural\Adapter\Sum.cs" />
     <Compile Include="Patterns\Structural\Adapter\Translator.cs" />
     <Compile Include="Patterns\Structural\Bridge\Counter.cs" />
+    <Compile Include="Patterns\Structural\Bridge\ICounter.cs" />
     <Compile Include="Patterns\Structural\Bridge\IMultiplicationTable.cs" />
     <Compile Include="Patterns\Structural\Bridge\Table.cs" />
     <Compile Include="Patterns\Structural\Bridge\TableBy2.cs" />
